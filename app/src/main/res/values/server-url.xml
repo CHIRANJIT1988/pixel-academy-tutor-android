@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pixelServerBaseUrl">http://192.168.111.4:8012/pixel-academy-api/</string>
+    <string name="pixelServerLoginUrl">login-user.php</string>
+    <string name="pixelServerRegisterUrl">register-user.php</string>
+    <string name="pixelServerVerificationUrl">request-otp.php</string>
+    <string name="pixelServerAddressUrl">sync-tutor-address.php</string>
+    <string name="pixelServerEducationUrl">sync-education.php</string>
+    <string name="pixelServerOccupationUrl">sync-occupation.php</string>
+    <string name="pixelServerPreferenceUrl">sync-preference.php</string>
+    <string name="pixelServerClassMasterUrl">receive-class-master.php</string>
+    <string name="pixelServerSubjectMasterUrl">receive-subject-master.php</string>
+    <string name="pixelServerBoardMasterUrl">receive-board-master.php</string>
+    <string name="pixelServerFeesRangeMasterUrl">receive-fees-range-master.php</string>
+    <string name="pixelServerMediumMasterUrl">receive-medium-master.php</string>
+    <string name="pixelServerQualificationMasterUrl">receive-qualification-master.php</string>
+</resources>

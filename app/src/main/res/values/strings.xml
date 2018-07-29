@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">Pixel Academy Tutor</string>
+    <string name="title_activity_my_account">My Account</string>
+    <string name="hint_enter_mobile_no">Mobile No</string>
+    <string name="hint_enter_password">Password</string>
+    <string name="hint_enter_name">Name</string>
+    <string name="hint_otp">Enter OTP</string>
+
+    <string name="hint_address">Address</string>
+    <string name="hint_locality">Locality</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state">State</string>
+    <string name="hint_country">Country</string>
+    <string name="hint_pincode">Pincode</string>
+
+    <string name="hint_school">School / College / University</string>
+    <string name="hint_division">Division</string>
+    <string name="hint_qualification">Qualification</string>
+    <string name="hint_achievement">Academic Achievement</string>
+    <string name="hint_status">Qualification Status</string>
+
+    <string name="hint_occupation">Occupation</string>
+    <string name="hint_organization">Organization</string>
+    <string name="hint_start_date">Start Date</string>
+    <string name="hint_end_date">End Date</string>
+
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_get_in">Sign In</string>
+    <string name="button_register">Register</string>
+    <string name="button_done">Done</string>
+    <string name="button_reset_password">Reset Password</string>
+    <string name="button_ping">PING</string>
+    <string name="button_call">CALL NOW</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_delete">Delete</string>
+
+    <string name="title_confirmation_code">OTP not Verifying ? Click Here</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Dialogs -->
+    <string name="AreYouSure">Are you sure?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="Add">Add</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Previous">Prev</string>
+    <string name="Next">Next</string>
+    <string name="End">End Test</string>
+    <string name="Edit">Edit</string>
+    <string name="Verify">Verify</string>
+    <string name="title_activity_inbox">InboxActivity</string>
+
+</resources>

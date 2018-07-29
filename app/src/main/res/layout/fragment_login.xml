@@ -1,0 +1,127 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent" >
+
+    <!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back"
+            android:paddingTop="30dp"
+            android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/myPrimaryColor"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nice to see you again!"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/myPrimaryColor"/>
+
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editPhoneNumber"
+                style="@style/CustomEditTextStyle"
+                android:hint="@string/hint_enter_mobile_no"
+                android:digits="1234567890"
+                android:maxLines="1"
+                android:inputType="phone"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/myTextSecondaryColor"
+                android:drawableStart="@null" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" >
+
+            <EditText
+                android:id="@+id/editPassword"
+                style="@style/CustomEditTextStyle"
+                android:hint="@string/hint_enter_password"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white"
+                android:textColorHint="@color/myTextSecondaryColor"
+                android:drawableStart="@null" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnNewPassword"
+            style="@style/LinkButtonStyle"
+            android:gravity="end"
+            android:textStyle="normal"
+            android:visibility="gone"
+            android:text="@string/button_reset_password"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:minWidth="160dp"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:onClick="onClick"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="false"
+            android:background="@color/myPrimaryColor"
+            android:text="@string/button_get_in" />
+
+        <ProgressBar
+            android:id="@+id/pbLoading"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:indeterminate="true"
+            android:visibility="gone"
+            android:layout_gravity="center_horizontal|center_vertical" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/myAccentColor"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
